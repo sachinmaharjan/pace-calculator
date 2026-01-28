@@ -14,6 +14,23 @@ pnpm dev
 bun dev
 ```
 
+Build
+```bash
+npm run build
+```
+Install Vercel 
+```bash
+npm i -g vercel
+```
+Push to Vercel 
+```bash
+vercel
+```
+Push to Vercel Production
+```bash
+vercel --prod
+```  
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
