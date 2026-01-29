@@ -1,4 +1,4 @@
-export default function PrivacyPage(): JSX.Element {
+export default function PrivacyPage() {
   return (
     <main style={styles.container}>
       <h1 style={styles.title}>Privacy Policy</h1>
