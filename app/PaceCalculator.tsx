@@ -52,9 +52,9 @@ export default function PaceCalculator() {
 
         {/* Input */}
         <div className="flex gap-2 justify-center text-2xl">
-          <input type="number" value={minutes} onChange={(e) => setMinutes(+e.target.value)} className="w-16 bg-black border-b text-center" />
+          <input type="number" min={0} max={60} value={minutes} onChange={(e) => setMinutes(Math.min(60, Math.max(0, Number(e.target.value))))} className="w-16 bg-black border-b text-center" />
           :
-          <input type="number" value={seconds} onChange={(e) => setSeconds(+e.target.value)} className="w-16 bg-black border-b text-center" />
+          <input type="number" min={0} max={60} value={seconds} onChange={(e) => setSeconds(Math.min(60, Math.max(0, Number(e.target.value))))} className="w-16 bg-black border-b text-center" />
         </div>
 
         {/* Direction */}
