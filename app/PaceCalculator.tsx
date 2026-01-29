@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { Linking, Pressable } from "react-native";
 
 const PRESETS = [
   { label: "6:00 mile", minutes: 6, seconds: 0 },
@@ -81,6 +82,7 @@ export default function PaceCalculator() {
         <div className="hang-right">
             <span className="text-xs text-zinc-500">Created by Sachin Maharjan</span>
         </div>
+        <a href="/privacy" className="privacy-link">Privacy Policy</a>
       </div>
     </div>
   );

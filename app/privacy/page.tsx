@@ -2,7 +2,7 @@ export default function PrivacyPage(): JSX.Element {
   return (
     <main style={styles.container}>
       <h1 style={styles.title}>Privacy Policy</h1>
-      <p style={styles.updated}>Last updated: March 2026</p>
+      <p style={styles.updated}>Last updated: Jan 2026</p>
 
       <section>
         <h2 style={styles.subtitle}>1. Introduction</h2>
