@@ -71,7 +71,7 @@ export default function PaceCalculator() {
 
         {/* Splits */}
         <div className="bg-zinc-800 rounded-2xl p-4">
-          <h2 className="text-sm mb-2">Track Splits</h2>
+          <h2 className="text-sm mb-2">Track Splits (1 lap = 400m )</h2>
           {Object.entries(splits).map(([k, v]) => (
             <div key={k} className="flex justify-between text-sm">
               <span>{k}</span>
