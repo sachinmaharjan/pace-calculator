@@ -2,6 +2,11 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+Command to run to create 
+```bash
+npx create-next-app pace-calculator
+```
+
 First, run the development server:
 
 ```bash
